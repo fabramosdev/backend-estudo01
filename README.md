@@ -63,8 +63,7 @@ yarn dev  OU  npm dev
 
 - [@fabramosdev](https://github.com/fabramosdev) 
 
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+## 🎉 Agradecimentos <a name = "acknowledgement"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- Rocketseat
+- Diego Fernandes
