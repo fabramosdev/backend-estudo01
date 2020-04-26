@@ -1,10 +1,34 @@
 const express = require('express');
-const { uuid } = require('uuidv4');
+const { uuid, isUuid } = require('uuidv4');
 
 const app = express();
 app.use(express.json())
 
 const projects = [];  //Armazenamento na memória
+
+function logRequests(request, response, next) {
+  //Middleware
+  const { method, url } = request
+
+  const logLabel = `MÉTODO:[${method.toUpperCase()}] || ROTA: ${url} || TEMPO`
+
+  console.time(logLabel)
+  next()
+  console.timeEnd(logLabel)
+}
+
+function validateProjectId(request, response, next) {
+  const { id } = request.params
+
+  if(!isUuid(id)){
+    return response.status(400).json({ error: 'Invalid project ID' })
+  }
+
+  return next()
+}
+
+app.use(logRequests)
+app.use('/projects/:id', validateProjectId)
 
 app.get('/projects', (request, response) => {
   const { title } = request.query
