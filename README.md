@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=100% height=200px src="https://taverna.devall.com.br/uploads/default/original/1X/aebfe748804020a4b28896843fe76ef9aa2452de.png" alt="Project logo"></a>
+ <img width=100% height=400px src="https://taverna.devall.com.br/uploads/default/original/1X/aebfe748804020a4b28896843fe76ef9aa2452de.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">backend</h3>
