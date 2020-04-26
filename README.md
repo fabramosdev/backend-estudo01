@@ -10,7 +10,6 @@
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![Stars](https://img.shields.io/github/stars/fabramosdev/backend-estudo01)]()
 [![GitHub Issues](https://img.shields.io/github/issues/fabramosdev/backend-estudo01)](https://github.com/fabramosdev/backend-estudo01/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/fabramosdev/backend-estudo01/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
@@ -24,89 +23,45 @@
 ## 📝 Table of Contents
 
 - [Sobre](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+- [Clonando o projeto](#getting_started)
+- [Ferramentas usadas](#built_using)
+- [Autor](#authors)
+- [Agradecimentos](#acknowledgement)
 
 ## 🧐 Sobre <a name = "about"></a>
 
 Projeto de estudo de criação de um backend simples feito com Node JS utlizando Express para criação, edição, listagem e deleção de dados. Todos os dados são salvos em memória. A aplicação visa entender o fluxo de requisição bem como os parâmetros enviados nas mesmas.
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## 🏁 Clonando o Projeto <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+Clonar o projeto é fácil... ## git clone https://github.com/fabramosdev/backend-estudo01.git
 
-### Prerequisites
+### Prerequisitos
 
-What things you need to install the software and how to install them.
+- Node JS
+- NPM ou YARN
+- INSOMNIA ou POSTMAN (Para fazer as requisições)
 
-```
-Give examples
-```
 
-### Installing
+### Iniciando o projeto
 
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
+Startando o server:
 
 ```
-Give the example
+yarn dev  OU  npm dev
 ```
 
-And repeat
 
-```
-until finished
-```
+## ⛏️ Ferramentas usadas <a name = "built_using"></a>
 
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
-
-## ⛏️ Built Using <a name = "built_using"></a>
-
-- [MongoDB](https://www.mongodb.com/) - Database
+- [Node](https://nodejs.org/) - Javascript Engine
 - [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Insomnia](https://insomnia.rest/) - API Rest Client
+- [VS Code](https://code.visualstudio.com/) - IDE
 
-## ✍️ Authors <a name = "authors"></a>
+## ✍️ Author <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+- [@fabramosdev](https://github.com/fabramosdev) 
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
