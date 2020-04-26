@@ -8,7 +8,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/fabramosdev/backend-estudo01/issues)
+[![Stars](https://img.shields.io/github/stars/fabramosdev/backend-estudo01)]()
+[![GitHub Issues](https://img.shields.io/github/issues/fabramosdev/backend-estudo01)](https://github.com/fabramosdev/backend-estudo01/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/fabramosdev/backend-estudo01/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
@@ -32,9 +33,9 @@
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
-## 🧐 About <a name = "about"></a>
+## 🧐 Sobre <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+Projeto de estudo de criação de um backend simples feito com Node JS utlizando Express para criação, edição, listagem e deleção de dados. Todos os dados são salvos em memória. A aplicação visa entender o fluxo de requisição bem como os parâmetros enviados nas mesmas.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
