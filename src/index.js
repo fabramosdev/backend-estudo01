@@ -1,4 +1,5 @@
 const express = require('express');
+const { uuid } = require('uuidv4');
 
 const app = express();
 app.use(express.json())
@@ -6,26 +7,16 @@ app.use(express.json())
 const projects = [];  //Armazenamento na memória
 
 app.get('/projects', (request, response) => {
-/*
-  const {title, name} = request.query; // MODO DESESTRUTURADO
-  console.log(title)
-  console.log(name)
-*/
   return response.json(projects)
 });
 
 app.post('/projects',(request, response) => {
-
   const { title, owner } = request.body
-  console.log(title)
-  console.log(owner)
-  
+  const project = { id: uuid(), title, owner }
 
-  return response.json([
-    'Projeto 1',
-    'Projeto 2',
-    'Projeto 3',
-  ])
+  projects.push(project)
+
+  return response.json(project)
 });
 
 app.put('/projects/:id',(request, response) => {
